@@ -1,0 +1,102 @@
+header {
+  background-color: #fff;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  border-bottom: solid 1px #ececec;
+
+  width: 100%;
+  min-height: 80px;
+  /* top: 0;
+  left: 0;
+  z-index: 1; */
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.headerConteiner {
+  /* position: relative; */
+  /* display: -webkit-box; */
+  /* display: -ms-flexbox; */
+  display: flex;
+  /* -webkit-box-align: center; */
+  /* -ms-flex-align: center; */
+  align-items: center;
+}
+
+.logoHeader {
+  color: #212121;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  margin-right: 93px;
+}
+
+.menuButton {
+  margin-left: auto;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.menuConteiner {
+  /* z-index: 1; */
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.navItem:not(:last-child) {
+  margin-right: 50px;
+}
+
+.address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px 0px;
+  margin-left: auto;
+}
+
+.addressItem:not(:last-child) {
+  margin-right: 30px;
+}
+
+.addressLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #757575;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 14px;
+}
+
+/* .header {
+  display: flex;
+  width: 100%;
+}
+
+.bagList {
+  display: flex;
+  margin-left: auto;
+  margin: 0;
+  padding: 0;
+} */ ;
