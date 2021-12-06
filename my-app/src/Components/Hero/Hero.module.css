@@ -1,0 +1,28 @@
+.hero {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2f303a;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  max-width: 1600px;
+  height: 600px;
+  /* background-size: auto; */
+  background-image: url(../../images/hero3.png);
+}
+
+.button {
+  /* background-color: Transparent; */
+  /* background-color: Transparent,
+    rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), 10%); */
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
+  border: 1px solid #efd2c2;
+  width: 250px;
+  height: 60px;
+  margin-top: 400px;
+}

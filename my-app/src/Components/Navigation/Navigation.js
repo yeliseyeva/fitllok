@@ -4,12 +4,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import search from "../../images/search.svg";
 import bag from "../../images/bag.svg";
 import s from "./Header.module.css";
+import "../../index.css"
 
 function Header () {
     return (
         <header className={s.header}>
         <div className={s.headerConteiner}>
-            {/* <a href="./index.html" className={s.logoHeader}><span class="accent">Web</span>Studio</a> */}
+            <div className={s.logoHeader}>FITLOOK</div>
 
 
             {/* <button type="button" className={s.menuButton} aria-controls="menu-conteiner" aria-expanded="false" data-menu-button>
@@ -23,30 +24,27 @@ function Header () {
             <div className={s.menuConteiner} id="menu-conteiner" data-menu>
                 <nav class="main-nav">  
                     <ul className={s.nav}>
-                        <li className={s.navItem}><a class="current" href="./index.html">Главная</a></li>
-                        <li className={s.navItem}><a href="./portfolio.html">Каталог</a></li>
-                        <li className={s.navItem}><a href="./">Доставка</a></li>
-                        <li className={s.navItem}><a href="./">Контакты</a></li>
+                        <li className={s.navItem}>Главная</li>
+                        <li className={s.navItem}>Каталог</li>
+                        <li className={s.navItem}>Доставка</li>
+                        <li className={s.navItem}>Контакты</li>
                     </ul>  
                 </nav>
     
                 <ul className={s.address}>
                     <li className={s.addressItem}>
                         <a href="mailto:info@devstudio.com" className={s.addressLink}>
-                                {/* <svg class="icon-contacts icon-milo">
-                                    <use href="./images/symbol-defs.svg#milo" ></use>
-                                </svg> */}
-                            info@devstudio.com
+                        <img src={bag} alt="search" width="18" />
                         </a>
                     </li>
-                    <li className={s.addressItem}>
+                    {/* <li className={s.addressItem}>
                         <a href="tel:380961111111" class="tel" className={s.addressLink}>
                                 <svg class="icon-contacts icon-phone">
-                                    <use href="../../images/search.css" ></use>
+                                    <use href="../../images/bag.svg" ></use>
                                 </svg>
                             +38 096 111 11 11
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
 
                 {/* <ul class="social-menu">

@@ -15,3 +15,8 @@ code {
 ul {
   list-style: none;
 }
+
+@font-face {
+  font-family: champagne;
+  src: url(./fonts/Champagne\ &\ Limousines.ttf);
+}
