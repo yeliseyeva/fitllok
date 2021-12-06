@@ -1,5 +1,6 @@
 import React from "react";
 import s from "./Hero.module.css"
+import "../../index.css"
 
 function Hero () {
     return (
