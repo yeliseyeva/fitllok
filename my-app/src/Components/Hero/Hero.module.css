@@ -21,8 +21,16 @@
     rgba(255, 255, 255, 0.5),
     rgba(255, 255, 255, 0.5)
   );
-  border: 1px solid #efd2c2;
+  border: 1px solid #8d8d8d;
   width: 250px;
   height: 60px;
   margin-top: 400px;
+}
+
+.button:hover {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.7)
+  );
 }

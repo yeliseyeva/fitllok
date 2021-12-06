@@ -34,7 +34,7 @@ function Header () {
                 <ul className={s.address}>
                     <li className={s.addressItem}>
                         <a href="mailto:info@devstudio.com" className={s.addressLink}>
-                        <img src={bag} alt="search" width="18" />
+                        <img src={bag} alt="search" width="26" />
                         </a>
                     </li>
                     {/* <li className={s.addressItem}>
