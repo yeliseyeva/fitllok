@@ -8,29 +8,29 @@ import s from "./Items.module.css";
 const leggins = [
     {
         id: 1,
-        name: "Лосины",
-        img: "",
+        name: "Лосины с широким поясом",
+        img: "https://picua.org/images/2021/12/08/9a74f86c5c9fa47ebfeb68531771d6f4.jpg",
         description: "Описание",
         price: "599 грн"
     },
     {
         id: 2,
-        name: "Лосины",
-        img: "",
+        name: "Лосины с высоким поясом",
+        img: "https://picua.org/images/2021/12/08/928a2e06011e9056ed556ab9823c37dc.jpg",
         description: "Описание",
         price: "599 грн"
     },
     {
         id: 3,
-        name: "Лосины",
-        img: "",
+        name: "Лосины с высоким поясом",
+        img: "https://picua.org/images/2021/12/08/b898d701ba12a3fda7b08963453ec8f5.jpg",
         description: "Описание",
         price: "599 грн"
     },
     {
         id: 4,
-        name: "Лосины",
-        img: "",
+        name: "Лосины с широким поясом",
+        img: "https://picua.org/images/2021/12/08/e88bd4a54bdcef8e22a9b958828d0f05.jpg",
         description: "Описание",
         price: "599 грн"
     }
@@ -51,7 +51,7 @@ function LegginsItem() {
                />
                <Card.Body>
                  <Card.Title>{name}</Card.Title>
-                 <Card.Text>{description}</Card.Text>
+                 <Card.Text>{price}</Card.Text>
                  <Button className={s.button}>Добавить в корзину</Button>
                </Card.Body>
              </Card>

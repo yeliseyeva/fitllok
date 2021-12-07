@@ -17,8 +17,6 @@ function CatalogPage() {
     <>
     <Conteiner>
       <Categories/>
-    </Conteiner>
-    <Conteiner>
       <Routes>
         <Route path="/leggins" element={<LegginsItem />} />
         <Route path="/tops" element={<TopsItem />} />

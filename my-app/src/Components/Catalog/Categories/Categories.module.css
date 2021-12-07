@@ -1,8 +1,32 @@
-.button {
+.navLink {
   border: 1px solid #000;
+  text-decoration: none;
   width: 200px;
+  display: inline-block;
+  color: #000;
+  /* padding: 8px 0px; */
   /* height: 60px; */
   /* margin-top: 400px; */
+  /* font-weight: 500; */
+  /* font-size: 16px; */
+  /* font-family: champagne; */
+  /* color: #000; */
+  /* background-color: transparent; */
+}
+
+.navLink:not(:last-child) {
+  margin-right: 20px;
+}
+
+.navLink:hover {
+  color: #000;
+}
+
+.button {
+  /* border: 1px solid #000; */
+  width: 200px;
+  border: none;
+  height: 60px;
   font-weight: 500;
   font-size: 16px;
   font-family: champagne;
@@ -10,14 +34,23 @@
   background-color: transparent;
 }
 
-.navLink:not(:last-child) {
+.activeNavLink {
+  border: 2px solid #000;
+  text-decoration: none;
+  width: 200px;
+  display: inline-block;
+  color: #000;
+}
+
+.activeNavLink:not(:last-child) {
   margin-right: 20px;
 }
 
-.activeNavLink {
-  background-color: tomato;
+.activeNavLink:hover {
+  color: #000;
 }
 
 .buttonGroup {
   text-align: center;
+  padding-bottom: 30px;
 }
