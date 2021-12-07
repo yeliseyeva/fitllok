@@ -2,46 +2,46 @@ import React from "react";
 import { Row, Col, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "@restart/ui/esm/Button";
-import s from "./LegginsItem.module.css";
+import s from "./Items.module.css";
 
 
-const leggins = [
+const casual = [
     {
         id: 1,
-        name: "Лосины",
+        name: "casual",
         img: "",
         description: "Описание",
-        price: "599 грн"
+        price: "399 грн"
     },
     {
         id: 2,
-        name: "Лосины",
+        name: "casual",
         img: "",
         description: "Описание",
-        price: "599 грн"
+        price: "399 грн"
     },
     {
         id: 3,
-        name: "Лосины",
+        name: "casual",
         img: "",
         description: "Описание",
-        price: "599 грн"
+        price: "399 грн"
     },
     {
         id: 4,
-        name: "Лосины",
+        name: "casual",
         img: "",
         description: "Описание",
-        price: "599 грн"
+        price: "399 грн"
     }
 ]
 
-function LegginsItem() {
+function CasualItem () {
   return (
 
     <Row xs={1} md={4} className="g-4">
-         {leggins.map(({ img, name, description, price }) => (
-           <Col>
+         {casual.map(({id, img, name, description, price }) => (
+           <Col key={id}>
              <Card className={s.card}>
                <Card.Img
                  variant="top"
@@ -61,4 +61,4 @@ function LegginsItem() {
   );
 }
 
-export default LegginsItem;
+export default CasualItem;

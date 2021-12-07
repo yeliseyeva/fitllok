@@ -16,8 +16,7 @@ function App() {
    {/* </Conteiner> */}
    <Routes>
      <Route path="/" element={<MainPage />}/>
-     <Route path="/catalog" element={<CatalogPage />}/>
-     <Route path="/catalog/:linkTo/*" element={<CatalogPage />}/>
+     <Route path="/catalog/*" element={<CatalogPage />}/>
      <Route path="/delivery" element={<DeliveryPage />}/>
      <Route path="/contacts" element={<ContactsPage />}/>
    </Routes>

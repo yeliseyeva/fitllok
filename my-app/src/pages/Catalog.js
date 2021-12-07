@@ -1,21 +1,29 @@
 import React from "react";
-import CatalogList from "../Components/Catalog/CatalogList/CatalogList";
 import Conteiner from "../Components/Conteiner/Conteiner";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 // import CardsItems from "../Components/Catalog/Leggins/Leggins";
-import LegginsItem from "../Components/Catalog/LegginsItem/LegginsItem";
-import ButtonGroup from "../Components/Catalog/CardsCatalog/ButtonGroup";
+import LegginsItem from "../Components/Catalog/Items/LegginsItem";
+import Categories from "../Components/Catalog/Categories/Categories";
+import TopsItem from "../Components/Catalog/Items/TopsItem";
+import ComplectsItem from "../Components/Catalog/Items/ComplectsItem";
+import CasualItem from "../Components/Catalog/Items/CasualItem";
+
+
+
 
 function CatalogPage() {
+
   return (
     <>
     <Conteiner>
-      <ButtonGroup/>
-      {/* <CatalogList /> */}
+      <Categories/>
     </Conteiner>
     <Conteiner>
       <Routes>
-        <Route path="leggins" element={<LegginsItem />} />
+        <Route path="/leggins" element={<LegginsItem />} />
+        <Route path="/tops" element={<TopsItem />} />
+        <Route path="/complects" element={<ComplectsItem />} />
+        <Route path="/casual" element={<CasualItem />} />
       </Routes>
     </Conteiner>
     </>
@@ -23,3 +31,7 @@ function CatalogPage() {
 }
 
 export default CatalogPage;
+
+
+
+
