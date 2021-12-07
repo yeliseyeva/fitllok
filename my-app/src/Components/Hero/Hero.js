@@ -5,7 +5,7 @@ import "../../index.css"
 function Hero () {
     return (
         <section className={s.hero}>
-                <div class="hero-conteiner">
+                <div>
                     {/* <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1> */}
                     <button className={s.button} data-modal-open>Каталог</button>
                 </div>

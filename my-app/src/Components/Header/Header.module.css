@@ -62,16 +62,6 @@ header {
   padding: 0;
 }
 
-.navItem {
-  position: relative;
-  padding-top: 22px;
-  padding-bottom: 22px;
-}
-
-.navItem:not(:last-child) {
-  margin-right: 50px;
-}
-
 .address {
   display: -webkit-box;
   display: -ms-flexbox;
