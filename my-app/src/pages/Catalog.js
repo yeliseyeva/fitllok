@@ -18,10 +18,10 @@ function CatalogPage() {
     <Conteiner>
       <Categories/>
       <Routes>
-        <Route path="/leggins" element={<LegginsItem />} />
-        <Route path="/tops" element={<TopsItem />} />
-        <Route path="/complects" element={<ComplectsItem />} />
-        <Route path="/casual" element={<CasualItem />} />
+        <Route path="/leggins/*" element={<LegginsItem />} />
+        <Route path="/tops/*" element={<TopsItem />} />
+        <Route path="/complects/*" element={<ComplectsItem />} />
+        <Route path="/casual/*" element={<CasualItem />} />
       </Routes>
     </Conteiner>
     </>

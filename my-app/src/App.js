@@ -7,6 +7,7 @@ import MainPage from './pages/Main';
 import CatalogPage from './pages/Catalog';
 import DeliveryPage from './pages/Delivery';
 import ContactsPage from './pages/Contacts';
+import CardPage from './pages/Card';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
      <Route path="/catalog/*" element={<CatalogPage />}/>
      <Route path="/delivery" element={<DeliveryPage />}/>
      <Route path="/contacts" element={<ContactsPage />}/>
+     <Route path="/card" element={<CardPage />}/>
    </Routes>
    </>
   
