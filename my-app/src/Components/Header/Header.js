@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 // import { Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import search from "../../images/search.svg";
@@ -9,10 +10,19 @@ import NavBar from "../NavBar/NavBar";
 import burger from "../../images/burger.svg";
 
 function Header() {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
+  const onClickMenu = () => {
+    toggleMenu();
+  };
   return (
     <header className={s.header}>
       <div className={s.headerConteiner}>
-        <div className={s.burger}>
+        <div className={s.burger} onClick={onClickMenu}>
           <img src={burger} alt="menu" />
         </div>
         <div className={s.logoHeader}>FITLOOK</div>
@@ -32,6 +42,8 @@ function Header() {
           </ul>
         </div>
       </div>
+
+      {showMenu && <NavBar />}
     </header>
   );
 }
