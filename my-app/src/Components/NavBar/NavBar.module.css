@@ -1,12 +1,25 @@
 @media screen and (max-width: 767px) {
   .navBarConteiner {
     /* display: none; */
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+
+    padding: 15px 15px;
+
+    background-color: #fff;
   }
 }
 
 @media screen and (min-width: 768px) {
   .navBarConteiner {
     display: flex;
+    margin: 0;
+    padding: 0;
   }
 }
 

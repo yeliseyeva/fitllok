@@ -2,9 +2,9 @@ import React from "react";
 import s from "./NavBar.module.css";
 import { NavLink } from "react-router-dom";
 
-function NavBar() {
+function NavBar(onClick) {
   return (
-    <div className={s.navBarConteiner}>
+    <ul className={s.navBarConteiner} onClick={onClick}>
       <NavLink to="/" className={s.navLink}>
         <li>Главная</li>
       </NavLink>
@@ -17,7 +17,7 @@ function NavBar() {
       <NavLink to="/contacts" className={s.navLink}>
         <li>Контакты</li>
       </NavLink>
-    </div>
+    </ul>
   );
 }
 

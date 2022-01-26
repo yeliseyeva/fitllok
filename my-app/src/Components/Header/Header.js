@@ -19,6 +19,7 @@ function Header() {
   const onClickMenu = () => {
     toggleMenu();
   };
+
   return (
     <header className={s.header}>
       <div className={s.headerConteiner}>
@@ -28,9 +29,9 @@ function Header() {
         <div className={s.logoHeader}>FITLOOK</div>
         <div className={s.menuConteiner} id="menu-conteiner" data-menu>
           <nav>
-            <ul className={s.nav}>
+            <div className={s.nav}>
               <NavBar />
-            </ul>
+            </div>
           </nav>
 
           <ul className={s.address}>
@@ -43,7 +44,7 @@ function Header() {
         </div>
       </div>
 
-      {showMenu && <NavBar />}
+      {showMenu && <NavBar onClick={onClickMenu} />}
     </header>
   );
 }
