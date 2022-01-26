@@ -92,21 +92,21 @@ const leggins = [
   },
   {
     id: 13,
-    name: "Лосины с широким поясом",
+    name: "Лосины с высоким поясом",
     img: "https://picua.org/images/2021/12/08/c339d95c63138f17fe35617cda1078c0.jpg",
     description: "Описание",
     price: "599 грн",
   },
   {
     id: 14,
-    name: "Лосины с широким поясом",
+    name: "Лосины с высоким поясом",
     img: "https://picua.org/images/2021/12/08/6840a16fb117c28bf9e40bf6bb0ed642.jpg",
     description: "Описание",
     price: "599 грн",
   },
   {
     id: 15,
-    name: "Лосины с широким поясом",
+    name: "Лосины с высоким поясом",
     img: "https://picua.org/images/2021/12/08/d5e6aec0bbd1b64f0ebb83f089695bf7.jpg",
     description: "Описание",
     price: "599 грн",
@@ -127,7 +127,7 @@ const leggins = [
   },
   {
     id: 18,
-    name: "Лосины с широким поясом",
+    name: "Лосины с высоким поясом",
     img: "https://picua.org/images/2021/12/08/0a22bbc6da05ccb4dfd6256a45d2bf71.jpg",
     description: "Описание",
     price: "599 грн",
@@ -135,7 +135,7 @@ const leggins = [
   {
     id: 19,
     name: "Лосины с широким поясом",
-    img: "https://picua.org/images/2021/12/08/cfe92f53cddd97a7220364c99f50ee1f.jpgсв",
+    img: "https://picua.org/images/2022/01/26/b437a8aeb8cf46c8d2b49f132fd7e509.jpg",
     description: "Описание",
     price: "599 грн",
   },
@@ -152,7 +152,9 @@ function LegginsItem() {
               <Card.Title>{name}</Card.Title>
               <Card.Text>{price}</Card.Text>
               {/* <Button className={s.button}>Добавить в корзину</Button> */}
-              <NavLink to="/card"><Button className={s.button}>Добавить в корзину</Button></NavLink>
+              <NavLink to="/card">
+                <Button className={s.button}>Добавить в корзину</Button>
+              </NavLink>
             </Card.Body>
           </Card>
         </Col>
