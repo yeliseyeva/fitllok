@@ -1,3 +1,15 @@
+@media screen and (max-width: 767px) {
+  .navBarConteiner {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navBarConteiner {
+    display: flex;
+  }
+}
+
 .navLink {
   position: relative;
   padding-top: 22px;

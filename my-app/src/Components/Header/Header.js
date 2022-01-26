@@ -6,11 +6,15 @@ import bag from "../../images/bag.svg";
 import s from "./Header.module.css";
 import "../../index.css";
 import NavBar from "../NavBar/NavBar";
+import burger from "../../images/burger.svg";
 
 function Header() {
   return (
     <header className={s.header}>
       <div className={s.headerConteiner}>
+        <div className={s.burger}>
+          <img src={burger} alt="menu" />
+        </div>
         <div className={s.logoHeader}>FITLOOK</div>
         <div className={s.menuConteiner} id="menu-conteiner" data-menu>
           <nav>
