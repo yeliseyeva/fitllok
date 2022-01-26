@@ -147,7 +147,7 @@ function LegginsItem() {
       {leggins.map(({ id, img, name, description, price }) => (
         <Col key={id}>
           <Card className={s.card}>
-            <Card.Img variant="top" src={img} height="300" className={s.img} />
+            <Card.Img variant="top" src={img} height="400" className={s.img} />
             <Card.Body>
               <Card.Title>{name}</Card.Title>
               <Card.Text>{price}</Card.Text>
