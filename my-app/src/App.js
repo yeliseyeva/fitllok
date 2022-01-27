@@ -8,6 +8,7 @@ import CatalogPage from "./pages/Catalog";
 import DeliveryPage from "./pages/Delivery";
 import ContactsPage from "./pages/Contacts";
 import CardPage from "./pages/Card";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
