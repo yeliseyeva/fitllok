@@ -6,3 +6,14 @@
   padding-right: 30px;
   padding-top: 30px;
 }
+
+@media screen and (max-width: 767px) {
+  .conteiner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+  }
+}

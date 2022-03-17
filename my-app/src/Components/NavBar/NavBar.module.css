@@ -1,6 +1,7 @@
 @media screen and (max-width: 767px) {
   .navBarConteiner {
     /* display: none; */
+    z-index: 2;
     position: fixed;
     top: 50px;
     left: 0;

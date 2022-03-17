@@ -8,7 +8,7 @@ function NavBar(onClick) {
       <NavLink to="/" className={s.navLink}>
         <li>Главная</li>
       </NavLink>
-      <NavLink to="/catalog" className={s.navLink}>
+      <NavLink to="/catalog/leggins" className={s.navLink}>
         <li>Каталог</li>
       </NavLink>
       <NavLink to="/delivery" className={s.navLink}>

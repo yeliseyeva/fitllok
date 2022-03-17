@@ -10,6 +10,7 @@ import CasualItem from "../Components/Catalog/Items/CasualItem";
 import ShortsItem from "../Components/Catalog/Items/ShortsItem";
 import TshortsItem from "../Components/Catalog/Items/T_shortsItem";
 import OverallsItem from "../Components/Catalog/Items/OverallsItems";
+import SwimwearItem from "../Components/Catalog/Items/SwimwearItem";
 
 function CatalogPage() {
   return (
@@ -24,6 +25,7 @@ function CatalogPage() {
           <Route path="/shorts/*" element={<ShortsItem />} />
           <Route path="/t_shorts/*" element={<TshortsItem />} />
           <Route path="/overalls/*" element={<OverallsItem />} />
+          <Route path="/swimwear/*" element={<SwimwearItem />} />
         </Routes>
       </Conteiner>
     </>

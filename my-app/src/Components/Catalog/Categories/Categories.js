@@ -57,6 +57,13 @@ function Categories() {
         Комбинезоны
         {/* <Button className={s.button}>Кэжуал</Button> */}
       </NavLink>
+      <NavLink
+        to="/catalog/swimwear"
+        className={({ isActive }) => (isActive ? s.activeNavLink : s.navLink)}
+      >
+        Купальники
+        {/* <Button className={s.button}>Кэжуал</Button> */}
+      </NavLink>
     </div>
   );
 }
