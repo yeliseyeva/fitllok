@@ -6,6 +6,7 @@
   color: #000;
   font-family: champagne;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .navLink:hover {
@@ -31,6 +32,7 @@
   color: #000;
   font-family: champagne;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .activeNavLink:hover {
